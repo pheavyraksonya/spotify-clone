@@ -1,5 +1,5 @@
-import { useContext, useState } from "react";
-import { songsData, assets } from "../assets/assets";
+import { useContext } from "react";
+import { assets } from "../assets/assets";
 import { PlayerContext } from "../context/playerContext";
 const Player = () => {
   const {
